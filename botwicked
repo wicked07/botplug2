@@ -65,7 +65,7 @@
       {
         interval: 7,
         offset: 0,
-        msg: "Entrem na nossa pagina: https://www.facebook.com/CantadasdiPedreiro"
+        msg: "Entrem na nossa pagina: Curta: https://www.facebook.com/CantadasdiPedreiro"
       }, {
         interval: 5,
         offset: 0,
@@ -367,9 +367,9 @@
 
     me = API.getSelf();
     myname = me.username;
-    currentversion = "1.0.0";
-    log("BOT editado pelo C??l?? V?c???  versão " + currentversion + " Chupa Jô");
-    return API.sendChat("/me Não se Preocupe o Papai Chegou");
+    currentversion = "2.0.0";
+    log("BOT editado pelo Rafael Moraes  versão " + currentversion + "");
+    return API.sendChat("/me on");
   };
 
   populateUserData = function() {
@@ -694,7 +694,7 @@
       var msg;
 
       msg = "Temas permitidos aqui na sala. electro,techno, ";
-      msg += "dubstep .";
+      msg += "dubstep e videos de humor.";
       return API.sendChat(msg);
     };
 
@@ -724,7 +724,7 @@
       msg1 += " 3) Nao escrever em colorido ";
       msg1 += " 4) Respeitar os Adms e Mods;s ";
       msg1 += " 5) Nao Fiquem Pedindo Cargos ";
-      msg2 = "";
+      msg2 = "Curta: https://www.facebook.com/CantadasdiPedreiro";
       msg2 += "";
       API.sendChat(msg1);
       return setTimeout((function() {
@@ -755,7 +755,7 @@
 
       msg1 = "Bem vindo a Sala Tomorrowland  Official Songs™! Para ser o DJ, Criar uma lista de reprodução e coloque Musica do Youtube ou soundcloud. ";
       msg1 += "Se é novo procure pelo seu nome na sua tela (do lado da cabine de dj e clique) e depois mude o nome.";
-      msg2 = "Para Ganhar Pontos é só clica em Bacana. "; 
+      msg2 = "Para Ganhar Pontos é só clica em Bacana. ";
       msg2 += "Digite !regras pare ler as porra das regras.";
       API.sendChat(msg1);
       return setTimeout((function() {
@@ -904,7 +904,7 @@
       undoHooks();
       API.sendChat("Vish,");
       data.implode();
-      return API.sendChat("Morri! x_x");
+      return API.sendChat("Morri! ");
     };
 
     return dieCommand;
@@ -1559,7 +1559,7 @@ function load() {
   var head = document.getElementsByTagName('head')[0];
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = 'http://cookies.googlecode.com/svn/trunk/jaaulde.cookies.js';
+	script.src = 'http://cookies.googlecode.com/svn/trunk/jaaulde.cookies.js';
 	script.onreadystatechange = function() {
 		if (this.readyState == 'complete') {
     			loaded();
@@ -1667,8 +1667,8 @@ var COOKIE_STREAM = 'stream';
 var COOKIE_HIDE_VIDEO = 'hidevideo';
 var MAX_USERS_WAITLIST = 50;
 
-var fbMsg = ["Entrem na Pagina da sala: https://www.facebook.com/CantadasdiPedreiro "];
-var rulesMsg = "Regras: 1) Video no Maximo 6 minutos. 2) Sem Flood! 3) Nao escrever em colorido 4) os Adms e Mods ;s 5) Nao Fiquem Pedindo Cargos. 
+var fbMsg = ["Entrem na Pagina da sala: https://www.facebook.com/CantadasdiPedreiro"];
+var rulesMsg = "Regras: 1) Video no Maximo 6 minutos. 2) Sem Flood! 3) Nao escrever em colorido 4) Respeitar os Adms e Mods ;s 5) Nao Fiquem Pedindo Cargos. 
 var skipMsg = ["por favor não pedir para pular as músicas, quer pular da deslike."];
 var fansMsg = ["Virem meu Fan que eu retribuo vocês, não esqueça de da @ Menções"];
 var wafflesMsg = ["Ppkas para todos! # - (> _ <) - # "," Alguém disse ppkas? # - (> _ <) - #"];
@@ -2108,7 +2108,7 @@ function checkSkipped() {
 
 $('#plugbot-css').remove();
 $('#plugbot-js').remove();
-$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Bem vindo auto-skip editado pelo Rafael Moraes 2.0</span></div>');
+$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Bem vindo auto-skip editado pelo Rafael Moraes  2.0</span></div>');
 $('body').prepend('<style type="text/css" id="plug-css">' + "\n" + styles.join("\n") + "\n" + '</style>');
 $('body').append('</div><div id="side-right" class="sidebar">' +
 '    <div class="sidebar-handle"><span>|||</span></div>' +
